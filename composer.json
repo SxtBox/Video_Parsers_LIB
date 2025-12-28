@@ -1,0 +1,14 @@
+{
+  "name": "sxtbox/video-parsers-lib",
+  "type": "library",
+  "description": "Library to parse YouTube, Vimeo and Wistia URLs",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "VideoParsers\\": "src/"
+    }
+  }
+}
