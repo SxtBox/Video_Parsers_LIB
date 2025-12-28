@@ -4,16 +4,15 @@
 Library to load and embed a video based on a YouTube, Vimeo or Wistia URL.
 
 ## Install
-
-```bash
-composer require sxtbox/Video_Parsers_LIB
-```
+composer requiresxtbox/video-parsers-lib
+composer dump-autoload
 
 > NOTE: Ensure `composer.json` PSR-4 autoload maps `Video_Parsers\\` => `src/` (this package expects namespaces `Video_Parsers` in source files).
 
 ## Quick usage
 
 ```php
+<?php
 require 'vendor/autoload.php';
 
 // load video (automatically returns Youtube/Vimeo/Wistia subclass)
